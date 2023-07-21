@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Portfolio Website">
+    <meta name="keywords" content="web design, html, css, js">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Alvarico | Portfolio</title>
+  </head>
+  <body>
+    <header class="header container">
+      <a class="header__logo" href="#">AlvaricoDev</a>
+      <nav>
+          <ul class="header__menu">
+              <li><a class="header__link" href="#">About</a></li>
+              <li><a class="header__link" href="#">Projects</a></li>
+              <li><a class="header__link" href="#">Contact</a></li>
+              <li class="header__line"></li>
+              <li><a class="header__cv btn" href="#">Download CV</a></li>
+          </ul>
+          <button class="header__burger" href="#"><i class="ri-menu-line"></i></button>
+      </nav>
+    </header>
+
+    <div class="mobile-nav">
+      <nav>
+          <ul class="mobile-nav__menu">
+              <li><a class="mobile-nav__link" href="">About</a></li>
+              <li><a class="mobile-nav__link" href="#">Projects</a></li>
+              <li><a class="mobile-nav__link" href="#">Contact</a></li>
+              <li class="mobile-nav__link-line"></li>
+              <li><a class="mobile-nav__cv btn" href="#">Download CV</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero container">
+          <div>
+              <h1 class="hero__title">Hi! I'm <strong>Mark Jay.</strong></h1>
+              <p class="hero__description">Fresh Graduate with Bachelors Degree in Information Technology at University of Cebu - Main Campus</p>
+              <a class="hero__btn btn" href="#">Contact</a>
+          </div>
+          <div>
+              <img class="hero__image" src="hero.png" alt="">
+          </div>
+      </section>
+      <!-- About me -->
+      <section class="about container section">
+          <div class="about__content">
+              <h2 class="about__title">About Me</h2>
+              <p class="about__description">Hello there! I'm <strong>Mark Jay Alvarico</strong>, a recent graduate with a deep 
+                  love for all things programming. As an enthusiastic developer, 
+                  I have embarked on a journey to create elegant and efficient 
+                  solutions through code.</p>
+              <p class="about__description">
+                  <strong>Passionate Problem Solver</strong> Ever since I wrote my first "Hello, World!" program, I knew I had 
+                  found my true calling. I am constantly drawn to the challenge of breaking down complex problems into logical, 
+                  manageable steps. With an unyielding determination to find innovative solutions, I am always excited to delve 
+                  into new technologies and explore the ever-evolving world of software development.</p>
+              <p class="about__description">
+                  <strong>Continuous Learner</strong> I believe that in the world of programming, learning never stops. 
+                  During my academic journey, I had the opportunity to work on various projects that allowed me to explore 
+                  different programming languages, frameworks, and methodologies. My passion for continuous learning drives 
+                  me to stay up-to-date with the latest industry trends, which enables me to incorporate cutting-edge practices 
+                  into my work.</p>
+              <p class="about__description">
+                  <strong>Collaborative Team Player</strong> While I cherish the thrill of working on personal projects, I also 
+                  value the power of collaboration. I actively seek opportunities to collaborate with like-minded individuals and 
+                  diverse teams, as I believe that diverse perspectives foster creativity and lead to stronger outcomes. I am a good 
+                  listener, and I find joy in leveraging my programming skills to support and uplift my teammates.</p>
+              <p class="about__description">
+                  <strong>Creating Impactful Solutions</strong> Beyond writing clean code, my ultimate goal is to create software that 
+                  makes a positive impact on people's lives. I am driven by the desire to build applications that are not just functional 
+                  but also user-friendly and accessible to all. I understand the significance of user-centric design and strive to craft 
+                  applications that bring joy and convenience to end-users.</p>
+          </div>
+          <div>
+              <img class="about__image" src="aboutmephoto.png" alt="Graduation Photo">
+          </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="good container section">
+          <div class="good__area">
+              <h2>My Skills</h2>
+              <div class="good__skill">
+                  <div class="good__skill-title"><i class="ri-html5-line"></i> HTML</div>
+                  <div class="good__skill-bar"></div>
+                  <div class="good__skill-fill html"><span class="good__skill-percent">90%</span></div>
+              </div>
+              <div class="good__skill">
+                  <div class="good__skill-title"><i class="ri-html5-line"></i> CSS</div>
+                  <div class="good__skill-bar"></div>
+                  <div class="good__skill-fill css"><span class="good__skill-percent">60%</span></div>
+              </div>
+              <div class="good__skill">
+                  <div class="good__skill-title"><i class="ri-html5-line"></i> JAVASRIPT</div>
+                  <div class="good__skill-bar"></div>
+                  <div class="good__skill-fill js"><span class="good__skill-percent">20%</span></div>
+              </div>
+              <div class="good__skill">
+                  <div class="good__skill-title"><i class="ri-html5-line"></i> ANDROID</div>
+                  <div class="good__skill-bar"></div>
+                  <div class="good__skill-fill android"><span class="good__skill-percent">30%</span></div>
+              </div>
+          </div>
+      </section>
+
+      <!--Projects-->
+      <section class="projects container section">
+          <h1>Project Goes Here</h1>
+      </section>
+    </main>
+
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
